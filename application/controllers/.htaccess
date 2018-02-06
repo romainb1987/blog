@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteBase /
+RewriteRule ^(.*)$ blog/index.php [L,QSA]
+
